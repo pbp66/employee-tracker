@@ -1,0 +1,30 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A command-line application managing a company's employee database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev-start": "clear && node index.js",
+    "test": "clear && jest"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbp66/employee-tracker.git"
+  },
+  "author": "pbp66",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pbp66/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/pbp66/employee-tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^9.1.4",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
