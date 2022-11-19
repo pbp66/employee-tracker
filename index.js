@@ -17,6 +17,5 @@ main();
 // DEV Testing Section
 const test = new Company();
 //const result = await test.addDepartment("Test");
-const result = await test.getAllDepartments();
-console.log("Get All Departments Response:")
+const result = await test.addRole('Accounting Admin', 60000, 'Accounting');
 console.log(result);
