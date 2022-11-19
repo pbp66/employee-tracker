@@ -1,3 +1,4 @@
+import mysql from "mysql2/promise";
 import Menu from "./lib/menu.js";
 import Company from "./lib/company/company.js";
 import cTable from "console.table";
@@ -6,17 +7,19 @@ function init() {
 
 }
 
-function main() {
+async function main() {
+    init();
+    const connection = await mysql.createConnection({
+        host: 'localhost',
+        user: 'james',
+        password: '',
+        database: 'employees'
+    });
 
+    const test = new Company(connection);
+    console.table(await test.viewAllEmployees());
+    console.log(cTable.getTable(await test.viewAllDepartments()));
+    console.table(await test.viewAllRoles());
 }
 
-init();
-
-main();
-
-// DEV Testing Section
-const test = new Company();
-console.table(await test.getAllEmployees());
-console.log(cTable.getTable(await test.getAllDepartments()));
-console.table(await test.getAllRoles());
-//console.log(result2);
+await main();
