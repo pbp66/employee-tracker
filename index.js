@@ -9,9 +9,10 @@ async function main() {
         database: 'employees'
     });
 
-    const employeeDatabase = new Menu(connection);
+    const employeeDatabase = new Menu();
+    await employeeDatabase.initialize(connection);
     await employeeDatabase.start();
     await employeeDatabase.endSession();
 }
 
-main();
+await main();
