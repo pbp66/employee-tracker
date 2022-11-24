@@ -1,12 +1,7 @@
 import mysql from "mysql2/promise";
 import Menu from "./lib/menu.js";
 
-function init() {
-
-}
-
 async function main() {
-    init();
     const connection = await mysql.createConnection({
         host: 'localhost',
         user: 'james',
@@ -14,9 +9,10 @@ async function main() {
         database: 'employees'
     });
 
-    const employeeDatabase = new Menu(connection);
+    const employeeDatabase = new Menu();
+    await employeeDatabase.initialize(connection);
     await employeeDatabase.start();
-    await employeeDatabase.company.endSession();
+    await employeeDatabase.endSession();
 }
 
-main();
+await main();
