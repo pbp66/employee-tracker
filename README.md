@@ -20,7 +20,32 @@ Git Clone this repository onto your local machine. Navigate to the downloaded pr
 
 ## Usage
 
-From the command line, run `npm start`. A list of actions will appear for you to choose from. Select the action and follow the prompts. After completing a full set of prompts, you will be returned to the main menu. You may select `Exit Program` to quit the application. If you need to quit in the middle of a prompt, press `CTRL + C` on your keyboard. 
+From the command line, run `npm start`. A list of actions will appear for you to choose from. Select the action and follow the prompts. After completing a full set of prompts, you will be returned to the main menu. You may select `Exit Program` to quit the application. If you need to quit in the middle of a prompt, press `CTRL + C` on your keyboard.
+
+See the pictures below for a quick run through:
+
+Start Menu:
+![Start Menu](./assets/readme/start-menu.png)
+
+Department Menu:
+![Department Menu](./assets/readme/department-menu.png)
+
+Add Department:
+![Add Department](./assets/readme/add-department.png)
+
+Get Department:
+![Get Department](./assets/readme/get-department.png)
+
+Delete Department:
+![Delete Department](./assets/readme/delete-department.png)
+
+View All Departments:
+![ View All Departments](./assets/readme/view-departments.png)
+
+Exit:
+![Exit](./assets/readme/exit.png)
+
+For a more in-depth video walkthrough, please watch the video below.
 
 ## License
 
