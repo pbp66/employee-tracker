@@ -76,8 +76,8 @@ Exit:
 ![Exit](./assets/readme/exit.png)
 
 For a more in-depth video walkthrough, please watch the video below.
-[![SQL Employee Database Video Guide](./assets/readme/employee-database-video.png)](https://drive.google.com/file/d/1z5jYEH5X-9L3J8lcmBSppdV7jaWrtQVK/view "SQL Employee Database Video Guide")
-[View on Youtube](https://youtu.be/YoVStlWjdIE "SQL Employee Database Video Guide")
+[![SQL Employee Database Video Guide](./assets/readme/employee-database-video.png)](https://drive.google.com/file/d/1sgbuRan7rUIRgHa-JLb7lnjbKyv5KNO-/view "SQL Employee Database Video Guide")
+[View on Youtube](https://youtu.be/zW7h3B6npLo "SQL Employee Database Video Guide")
 
 ## License
 
