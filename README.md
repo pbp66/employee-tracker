@@ -55,24 +55,31 @@ From the command line, run `npm start`. A list of actions will appear for you to
 See the pictures below for a quick run through:
 
 Start Menu:
+
 ![Start Menu](./assets/readme/start-menu.png)
 
 Department Menu:
+
 ![Department Menu](./assets/readme/department-menu.png)
 
 Add Department:
+
 ![Add Department](./assets/readme/add-department.png)
 
 Get Department:
+
 ![Get Department](./assets/readme/get-department.png)
 
 Delete Department:
+
 ![Delete Department](./assets/readme/delete-department.png)
 
 View All Departments:
+
 ![ View All Departments](./assets/readme/view-departments.png)
 
 Exit:
+
 ![Exit](./assets/readme/exit.png)
 
 For a more in-depth video walkthrough, please watch the video below.
