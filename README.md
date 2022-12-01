@@ -1,4 +1,4 @@
-# Sql Employee Database
+# SQL Employee Database
 
 ## Description
 
